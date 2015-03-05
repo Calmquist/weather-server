@@ -2,7 +2,7 @@ var fs = require('fs');
 var http = require('http');
 var url = require('url');
 var ROOT_DIR = "./root";
-http.createServer(function (req, res) {
+var server = http.createServer(function (req, res) {
   var urlObj = url.parse(req.url, true, false);
   fs.readFile(ROOT_DIR + urlObj.pathname, function (err,data) {
     if(urlObj.pathname.indexOf("getcity") != -1) {
@@ -37,11 +37,13 @@ http.createServer(function (req, res) {
     res.end(data);
     }
   });
-}).listen(80);
+});
 
+server.listen(80);
 
+exports.server = server;
 
-var options = {
+/*var options = {
     hostname: 'localhost',
     port: '80',
     path: '/hello.html'
@@ -57,4 +59,4 @@ function handleResponse(response) {
 }
 http.request(options, function(response){
   handleResponse(response);
-}).end();
+}).end();*/
