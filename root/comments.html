@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script> 
+        <script> $(document).ready(function(){ 
+            $("#submit").click(function(){ 
+                var obj = {Name:$("#Name").val(),Comment:$("#Comment").val()};
+                $("#json").text(JSON.stringify(obj));        
+                var url = "http://52.11.84.230/comment"; 
+                $.post(url,JSON.stringify(obj),function(data,textStatus) { 
+                    $("#done").append("Status: " + textStatus);
+                    console.log(data); 
+                    console.log(textStatus);
+                });
+            }); 
+            $("#show").click(function() {
+                console.log("Show Comments");
+                var url = "http://52.11.84.230/comment"; 
+                $.getJSON(url, function(data) {
+                    var commentList;
+                    commentList = "<ul>";
+                    $.each(data, function(i,item) {
+                        commentList += "<li> Name: " + data[i].Name + 
+                            " Comment: " + data[i].Comment + "</li>";
+                    });
+                    commentList += "</ul>";
+                    $("#comments").html(commentList); 
+                    console.log(commentList);
+                });
+            });
+        }); 
+        </script> 
+    </head> 
+    <body> 
+        <form id="commentForm" action=""> Name: <input type="text" name="Name" value="" id="Name"><br> comment: <input type="text" name="Comment" value="" id="Comment"><br>         </form> 
+        <button id="submit">Submit Comment</button>
+        <button id="show">Show Comments</button> 
+        <div id="json"></div> 
+        <div id="done"></div>
+        <div id="comments"></div>
+    </body> 
+</html>
+

@@ -26,6 +26,48 @@ var server = http.createServer(function (req, res) {
             res.end(JSON.stringify(result));
         });
     }
+    else if (urlObj.pathname === "/comment") {
+        console.log("comment route"); 
+        if(req.method === "POST") { 
+            console.log("POST comment route"); 
+            var jsonData = ""; 
+            req.on('data', function (chunk) { 
+                jsonData += chunk; 
+            }); 
+            req.on('end', function () { 
+                var reqObj = JSON.parse(jsonData); 
+                console.log(reqObj); 
+                console.log("Name: "+reqObj.Name); 
+                console.log("Comment: "+reqObj.Comment);
+                var MongoClient = require('mongodb').MongoClient;
+                MongoClient.connect("mongodb://localhost/comments", function(err,db) {
+                    if(err) {throw err;}
+                    db.collection("comments").insert(reqObj,function(err, records) {
+                        console.log("Record added as " + records[0]._id); 
+                    });
+                });
+            });
+            res.writeHead(204);
+            res.end();
+        }
+        else if(req.method === "GET") {
+            console.log("GET comment Route");
+            var MongoClient = require('mongodb').MongoClient;
+            MongoClient.connect("mongodb://localhost/comments", function(err,db) {
+                if(err) {throw err;}
+                db.collection("comments",function(err,comments) {
+                    comments.find(function(err, items) {
+                        items.toArray(function(err,itemArray){
+                            console.log("Document Array: ");
+                            console.log(itemArray);
+                            res.writeHead(200);
+                            res.end(JSON.stringify(itemArray));
+                        });
+                    });
+                });
+            });
+        }
+    }
     else {
         // Serve static files
         if (err) {

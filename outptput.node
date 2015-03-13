@@ -1,0 +1,90 @@
+nohup: ignoring input
+comment route
+POST comment route
+{ Name: 'Christopher', Comment: 'Test' }
+Name: Christopher
+Comment: Test
+Record added as 5500717c782171270502edb6
+comment route
+GET comment Route
+Document Array: 
+[ { Name: 'Christopher',
+    Comment: 'Comment',
+    _id: 55006ffc79eeee9404dc659a },
+  { Name: 'Christopher',
+    Comment: 'Next Comment',
+    _id: 5500700579eeee9404dc659b },
+  { Name: '', Comment: '', _id: 5500704979eeee9404dc659c },
+  { Name: '', Comment: '', _id: 550070e979eeee9404dc659d },
+  { Name: 'Christopher',
+    Comment: 'Test',
+    _id: 5500717c782171270502edb6 } ]
+comment route
+POST comment route
+{ Name: 'Christopher', Comment: 'Test' }
+Name: Christopher
+Comment: Test
+Record added as 550071c6782171270502edb7
+comment route
+GET comment Route
+Document Array: 
+[ { Name: 'Christopher',
+    Comment: 'Comment',
+    _id: 55006ffc79eeee9404dc659a },
+  { Name: 'Christopher',
+    Comment: 'Next Comment',
+    _id: 5500700579eeee9404dc659b },
+  { Name: '', Comment: '', _id: 5500704979eeee9404dc659c },
+  { Name: '', Comment: '', _id: 550070e979eeee9404dc659d },
+  { Name: 'Christopher',
+    Comment: 'Test',
+    _id: 5500717c782171270502edb6 },
+  { Name: 'Christopher',
+    Comment: 'Test',
+    _id: 550071c6782171270502edb7 } ]
+comment route
+POST comment route
+{ Name: 'Christopher', Comment: 'Another Test' }
+Name: Christopher
+Comment: Another Test
+Record added as 550072a0782171270502edb8
+comment route
+GET comment Route
+Document Array: 
+[ { Name: 'Christopher',
+    Comment: 'Comment',
+    _id: 55006ffc79eeee9404dc659a },
+  { Name: 'Christopher',
+    Comment: 'Next Comment',
+    _id: 5500700579eeee9404dc659b },
+  { Name: '', Comment: '', _id: 5500704979eeee9404dc659c },
+  { Name: '', Comment: '', _id: 550070e979eeee9404dc659d },
+  { Name: 'Christopher',
+    Comment: 'Test',
+    _id: 5500717c782171270502edb6 },
+  { Name: 'Christopher',
+    Comment: 'Test',
+    _id: 550071c6782171270502edb7 },
+  { Name: 'Christopher',
+    Comment: 'Another Test',
+    _id: 550072a0782171270502edb8 } ]
+comment route
+GET comment Route
+Document Array: 
+[ { Name: 'Christopher',
+    Comment: 'Comment',
+    _id: 55006ffc79eeee9404dc659a },
+  { Name: 'Christopher',
+    Comment: 'Next Comment',
+    _id: 5500700579eeee9404dc659b },
+  { Name: '', Comment: '', _id: 5500704979eeee9404dc659c },
+  { Name: '', Comment: '', _id: 550070e979eeee9404dc659d },
+  { Name: 'Christopher',
+    Comment: 'Test',
+    _id: 5500717c782171270502edb6 },
+  { Name: 'Christopher',
+    Comment: 'Test',
+    _id: 550071c6782171270502edb7 },
+  { Name: 'Christopher',
+    Comment: 'Another Test',
+    _id: 550072a0782171270502edb8 } ]
