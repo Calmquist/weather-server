@@ -88,3 +88,204 @@ Document Array:
   { Name: 'Christopher',
     Comment: 'Another Test',
     _id: 550072a0782171270502edb8 } ]
+comment route
+GET comment Route
+Document Array: 
+[ { Name: 'Christopher',
+    Comment: 'Comment',
+    _id: 55006ffc79eeee9404dc659a },
+  { Name: 'Christopher',
+    Comment: 'Next Comment',
+    _id: 5500700579eeee9404dc659b },
+  { Name: '', Comment: '', _id: 5500704979eeee9404dc659c },
+  { Name: '', Comment: '', _id: 550070e979eeee9404dc659d },
+  { Name: 'Christopher',
+    Comment: 'Test',
+    _id: 5500717c782171270502edb6 },
+  { Name: 'Christopher',
+    Comment: 'Test',
+    _id: 550071c6782171270502edb7 },
+  { Name: 'Christopher',
+    Comment: 'Another Test',
+    _id: 550072a0782171270502edb8 } ]
+comment route
+GET comment Route
+Document Array: 
+[ { Name: 'Christopher',
+    Comment: 'Comment',
+    _id: 55006ffc79eeee9404dc659a },
+  { Name: 'Christopher',
+    Comment: 'Next Comment',
+    _id: 5500700579eeee9404dc659b },
+  { Name: '', Comment: '', _id: 5500704979eeee9404dc659c },
+  { Name: '', Comment: '', _id: 550070e979eeee9404dc659d },
+  { Name: 'Christopher',
+    Comment: 'Test',
+    _id: 5500717c782171270502edb6 },
+  { Name: 'Christopher',
+    Comment: 'Test',
+    _id: 550071c6782171270502edb7 },
+  { Name: 'Christopher',
+    Comment: 'Another Test',
+    _id: 550072a0782171270502edb8 } ]
+comment route
+GET comment Route
+Document Array: 
+[ { Name: 'Christopher',
+    Comment: 'Comment',
+    _id: 55006ffc79eeee9404dc659a },
+  { Name: 'Christopher',
+    Comment: 'Next Comment',
+    _id: 5500700579eeee9404dc659b },
+  { Name: '', Comment: '', _id: 5500704979eeee9404dc659c },
+  { Name: '', Comment: '', _id: 550070e979eeee9404dc659d },
+  { Name: 'Christopher',
+    Comment: 'Test',
+    _id: 5500717c782171270502edb6 },
+  { Name: 'Christopher',
+    Comment: 'Test',
+    _id: 550071c6782171270502edb7 },
+  { Name: 'Christopher',
+    Comment: 'Another Test',
+    _id: 550072a0782171270502edb8 } ]
+comment route
+GET comment Route
+Document Array: 
+[ { Name: 'Christopher',
+    Comment: 'Comment',
+    _id: 55006ffc79eeee9404dc659a },
+  { Name: 'Christopher',
+    Comment: 'Next Comment',
+    _id: 5500700579eeee9404dc659b },
+  { Name: '', Comment: '', _id: 5500704979eeee9404dc659c },
+  { Name: '', Comment: '', _id: 550070e979eeee9404dc659d },
+  { Name: 'Christopher',
+    Comment: 'Test',
+    _id: 5500717c782171270502edb6 },
+  { Name: 'Christopher',
+    Comment: 'Test',
+    _id: 550071c6782171270502edb7 },
+  { Name: 'Christopher',
+    Comment: 'Another Test',
+    _id: 550072a0782171270502edb8 } ]
+comment route
+GET comment Route
+Document Array: 
+[ { Name: 'Christopher',
+    Comment: 'Comment',
+    _id: 55006ffc79eeee9404dc659a },
+  { Name: 'Christopher',
+    Comment: 'Next Comment',
+    _id: 5500700579eeee9404dc659b },
+  { Name: '', Comment: '', _id: 5500704979eeee9404dc659c },
+  { Name: '', Comment: '', _id: 550070e979eeee9404dc659d },
+  { Name: 'Christopher',
+    Comment: 'Test',
+    _id: 5500717c782171270502edb6 },
+  { Name: 'Christopher',
+    Comment: 'Test',
+    _id: 550071c6782171270502edb7 },
+  { Name: 'Christopher',
+    Comment: 'Another Test',
+    _id: 550072a0782171270502edb8 } ]
+comment route
+GET comment Route
+Document Array: 
+[ { Name: 'Christopher',
+    Comment: 'Comment',
+    _id: 55006ffc79eeee9404dc659a },
+  { Name: 'Christopher',
+    Comment: 'Next Comment',
+    _id: 5500700579eeee9404dc659b },
+  { Name: '', Comment: '', _id: 5500704979eeee9404dc659c },
+  { Name: '', Comment: '', _id: 550070e979eeee9404dc659d },
+  { Name: 'Christopher',
+    Comment: 'Test',
+    _id: 5500717c782171270502edb6 },
+  { Name: 'Christopher',
+    Comment: 'Test',
+    _id: 550071c6782171270502edb7 },
+  { Name: 'Christopher',
+    Comment: 'Another Test',
+    _id: 550072a0782171270502edb8 } ]
+comment route
+GET comment Route
+Document Array: 
+[ { Name: 'Christopher',
+    Comment: 'Comment',
+    _id: 55006ffc79eeee9404dc659a },
+  { Name: 'Christopher',
+    Comment: 'Next Comment',
+    _id: 5500700579eeee9404dc659b },
+  { Name: '', Comment: '', _id: 5500704979eeee9404dc659c },
+  { Name: '', Comment: '', _id: 550070e979eeee9404dc659d },
+  { Name: 'Christopher',
+    Comment: 'Test',
+    _id: 5500717c782171270502edb6 },
+  { Name: 'Christopher',
+    Comment: 'Test',
+    _id: 550071c6782171270502edb7 },
+  { Name: 'Christopher',
+    Comment: 'Another Test',
+    _id: 550072a0782171270502edb8 } ]
+comment route
+POST comment route
+{ Name: 'Paul Bodily', Comment: 'GET WORKS' }
+Name: Paul Bodily
+Comment: GET WORKS
+Record added as 55071df4782171270502edb9
+comment route
+GET comment Route
+Document Array: 
+[ { Name: 'Christopher',
+    Comment: 'Comment',
+    _id: 55006ffc79eeee9404dc659a },
+  { Name: 'Christopher',
+    Comment: 'Next Comment',
+    _id: 5500700579eeee9404dc659b },
+  { Name: '', Comment: '', _id: 5500704979eeee9404dc659c },
+  { Name: '', Comment: '', _id: 550070e979eeee9404dc659d },
+  { Name: 'Christopher',
+    Comment: 'Test',
+    _id: 5500717c782171270502edb6 },
+  { Name: 'Christopher',
+    Comment: 'Test',
+    _id: 550071c6782171270502edb7 },
+  { Name: 'Christopher',
+    Comment: 'Another Test',
+    _id: 550072a0782171270502edb8 },
+  { Name: 'Paul Bodily',
+    Comment: 'GET WORKS',
+    _id: 55071df4782171270502edb9 } ]
+comment route
+POST comment route
+{ Name: 'Paul Bodily', Comment: 'Nice work!' }
+Name: Paul Bodily
+Comment: Nice work!
+Record added as 55071e01782171270502edba
+comment route
+GET comment Route
+Document Array: 
+[ { Name: 'Christopher',
+    Comment: 'Comment',
+    _id: 55006ffc79eeee9404dc659a },
+  { Name: 'Christopher',
+    Comment: 'Next Comment',
+    _id: 5500700579eeee9404dc659b },
+  { Name: '', Comment: '', _id: 5500704979eeee9404dc659c },
+  { Name: '', Comment: '', _id: 550070e979eeee9404dc659d },
+  { Name: 'Christopher',
+    Comment: 'Test',
+    _id: 5500717c782171270502edb6 },
+  { Name: 'Christopher',
+    Comment: 'Test',
+    _id: 550071c6782171270502edb7 },
+  { Name: 'Christopher',
+    Comment: 'Another Test',
+    _id: 550072a0782171270502edb8 },
+  { Name: 'Paul Bodily',
+    Comment: 'GET WORKS',
+    _id: 55071df4782171270502edb9 },
+  { Name: 'Paul Bodily',
+    Comment: 'Nice work!',
+    _id: 55071e01782171270502edba } ]
