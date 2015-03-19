@@ -23,7 +23,7 @@
 <script>
 	$("#cityfield").keyup(function() {
         console.log($("#cityfield").val());
-		var url = "http://52.11.84.230/getcity?q="+$("#cityfield").val(); 
+		var url = "https://52.11.84.230/getcity?q="+$("#cityfield").val(); 
         console.log(url);
 		$.getJSON(url, function(data) {
 			var citiesList = "<ul>";

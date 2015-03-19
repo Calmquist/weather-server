@@ -7,7 +7,7 @@
             $("#submit").click(function(){ 
                 var obj = {Name:$("#Name").val(),Comment:$("#Comment").val()};
                 $("#json").text(JSON.stringify(obj));        
-                var url = "http://52.11.84.230/comment"; 
+                var url = "https://52.11.84.230/comment"; 
                 $.post(url,JSON.stringify(obj),function(data,textStatus) { 
                     $("#done").append("Status: " + textStatus);
                     console.log(data); 
@@ -16,7 +16,7 @@
             }); 
             $("#show").click(function() {
                 console.log("Show Comments");
-                var url = "http://52.11.84.230/comment"; 
+                var url = "https://52.11.84.230/comment"; 
                 $.getJSON(url, function(data) {
                     var commentList;
                     commentList = "<ul>";

@@ -12,7 +12,7 @@ var auth = basicAuth(function(user, pass) {
 var options = { 
     host: '127.0.0.1', 
     key: fs.readFileSync('ssl/server.key'), 
-    cert: fs.readFileSync('ssl/server.crt') 
+    cert: fs.readFileSync('ssl/server.crt'), 
 }; 
 var ROOT_DIR = './root';
 http.createServer(app).listen(80); 
